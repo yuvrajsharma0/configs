@@ -1,0 +1,10 @@
+~ nvim /etc/systemd/sleep.conf
+    uncomment sleep, hibernate related variables or values
+
+~ nvim /etc/dracut.conf.d/resume.conf
+    create this file and add this string:
+        add_dracutmodules+=" resume "
+
+~ sudo dracut -f
+    or
+~ sudo dracut --regenerate-all --force
