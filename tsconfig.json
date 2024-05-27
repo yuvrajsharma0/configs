@@ -1,0 +1,12 @@
+{
+	"include": ["src/*"],
+
+	"compilerOptions": {
+		"target": "ESNext",
+
+		"strict": true,
+
+		"outDir": "build",
+		"noEmitOnError": true
+	}
+}
